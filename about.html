@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehedi Hassan - About Me</title>
+    <!-- First load the preloads -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" as="style">
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.js" as="script">
+    
+    <!-- Then load the actual stylesheets -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="text-center">
+            <div class="code-icon-animation">
+                <i class="fas fa-code"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-code me-2"></i>CodeCraft
+            </a>
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-mdb-collapse-init
+                data-mdb-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <div class="animated-icon1">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="work.html">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3 active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Header -->
+    <header class="page-header min-vh-50 d-flex align-items-center bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold mb-4">About Me</h1>
+                    <p class="lead text-muted">Passionate about creating innovative solutions through code.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Content -->
+    <section class="about-section py-6">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Profile Card -->
+                <div class="col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4 text-center">
+                            <div class="profile-image mb-4 position-relative">
+                                <img src="images/profile.jpg" alt="Mehedi Hassan" 
+                                     class="rounded-circle img-fluid shadow"
+                                     style="width: 180px; height: 180px; object-fit: cover;"
+                                     onerror="this.src='https://placehold.co/180/4F46E5/ffffff?text=MH'">
+                                <div class="position-absolute bottom-0 end-0">
+                                    <span class="badge rounded-pill bg-primary px-3 py-2">
+                                        <i class="fas fa-code me-1"></i>Developer
+                                    </span>
+                                </div>
+                            </div>
+                            <h3 class="fw-bold mb-2">Mehedi Hassan</h3>
+                            <p class="text-muted mb-4">Computer Science @ UB</p>
+                            <div class="social-links d-flex justify-content-center gap-3 mb-4">
+                                <a href="mailto:hassan7@buffalo.edu" class="btn btn-floating btn-primary">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                                <a href="https://github.com/Mehedih178" target="_blank" class="btn btn-floating btn-primary">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/mehedi-hassan-a80762258/" target="_blank" class="btn btn-floating btn-primary">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                            <a href="contact.html" class="btn btn-primary w-100">
+                                Get in Touch
+                                <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Details -->
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <h4 class="fw-bold mb-4">About Me</h4>
+                            <p class="lead mb-4">
+                                Computer Science student at University at Buffalo, passionate about creating innovative solutions through code. 
+                                Focused on full-stack development and building impactful applications.
+                            </p>
+                            
+                            <!-- Skills Section -->
+                            <h5 class="fw-bold mb-4">Technical Skills</h5>
+                            <div class="row g-3">
+                                <!-- Frontend -->
+                                <div class="col-md-6">
+                                    <div class="skill-card p-3 bg-light rounded-3">
+                                        <h6 class="fw-bold mb-3">
+                                            <i class="fas fa-code text-primary me-2"></i>
+                                            Frontend Development
+                                        </h6>
+                                        <div class="progress mb-2" style="height: 8px;">
+                                            <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+                                        </div>
+                                        <p class="small text-muted mb-0">HTML, CSS, JavaScript, React</p>
+                                    </div>
+                                </div>
+                                
+                                <!-- Backend -->
+                                <div class="col-md-6">
+                                    <div class="skill-card p-3 bg-light rounded-3">
+                                        <h6 class="fw-bold mb-3">
+                                            <i class="fas fa-server text-primary me-2"></i>
+                                            Backend Development
+                                        </h6>
+                                        <div class="progress mb-2" style="height: 8px;">
+                                            <div class="progress-bar" role="progressbar" style="width: 75%"></div>
+                                        </div>
+                                        <p class="small text-muted mb-0">Node.js, Express, MongoDB</p>
+                                    </div>
+                                </div>
+                                
+                                <!-- Mobile -->
+                                <div class="col-md-6">
+                                    <div class="skill-card p-3 bg-light rounded-3">
+                                        <h6 class="fw-bold mb-3">
+                                            <i class="fas fa-mobile-alt text-primary me-2"></i>
+                                            Mobile Development
+                                        </h6>
+                                        <div class="progress mb-2" style="height: 8px;">
+                                            <div class="progress-bar" role="progressbar" style="width: 70%"></div>
+                                        </div>
+                                        <p class="small text-muted mb-0">Swift, iOS Development</p>
+                                    </div>
+                                </div>
+                                
+                                <!-- Tools -->
+                                <div class="col-md-6">
+                                    <div class="skill-card p-3 bg-light rounded-3">
+                                        <h6 class="fw-bold mb-3">
+                                            <i class="fas fa-tools text-primary me-2"></i>
+                                            Development Tools
+                                        </h6>
+                                        <div class="progress mb-2" style="height: 8px;">
+                                            <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+                                        </div>
+                                        <p class="small text-muted mb-0">Git, VS Code, Xcode</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Social media section -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with me on social networks:</span>
+            </div>
+
+            <div>
+                <a href="https://github.com/Mehedih178" class="btn btn-floating m-1 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mehedi-hassan-a80762258/" class="btn btn-floating m-1 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:hassan7@buffalo.edu" class="btn btn-floating m-1 text-reset">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Main footer content -->
+        <section class="py-5">
+            <div class="container text-center text-md-start">
+                <div class="row mt-3">
+                    <!-- About section -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-code me-3"></i>CodeCraft
+                        </h6>
+                        <p>
+                            Computer Science student passionate about creating innovative solutions 
+                            and learning new technologies.
+                        </p>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Quick Links
+                        </h6>
+                        <p>
+                            <a href="work.html" class="text-reset">Projects</a>
+                        </p>
+                        <p>
+                            <a href="about.html" class="text-reset">About</a>
+                        </p>
+                        <p>
+                            <a href="contact.html" class="text-reset">Contact</a>
+                        </p>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p>
+                            <i class="fas fa-home me-3"></i>
+                            Buffalo, NY
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            hassan7@buffalo.edu
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 Copyright:
+            <a class="text-reset fw-bold" href="index.html">CodeCraft</a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html> 

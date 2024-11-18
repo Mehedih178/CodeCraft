@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehedi Hassan - Contact</title>
+    <!-- First load the preloads -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" as="style">
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.js" as="script">
+    
+    <!-- Then load the actual stylesheets -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="text-center">
+            <div class="code-icon-animation">
+                <i class="fas fa-code"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-code me-2"></i>CodeCraft
+            </a>
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-mdb-collapse-init
+                data-mdb-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <div class="animated-icon1">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="work.html">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3 active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Toast container -->
+    <div class="toast-container position-fixed top-20 end-0 p-3">
+        <!-- Success Toast -->
+        <div
+            class="toast fade mx-auto"
+            id="successToast"
+            role="alert"
+            aria-live="assertive"
+            aria-atomic="true"
+            data-mdb-toast-init
+            data-mdb-autohide="true"
+            data-mdb-delay="3000"
+            data-mdb-position="top-right"
+            data-mdb-append-to-body="true"
+            data-mdb-stacking="true"
+            data-mdb-width="350px"
+            data-mdb-color="success"
+        >
+            <div class="toast-header text-white">
+                <i class="fas fa-check-circle me-2"></i>
+                <strong class="me-auto">Success</strong>
+                <button type="button" class="btn-close btn-close-white" data-mdb-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body text-white">
+                Message sent successfully! I'll get back to you soon.
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Header -->
+    <header class="page-header min-vh-50 d-flex align-items-center bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold mb-4">Get in Touch</h1>
+                    <p class="lead text-muted">Let's collaborate on something amazing together.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section py-6">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Contact Info -->
+                <div class="col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h4 class="fw-bold mb-4">Let's Connect</h4>
+                            
+                            <!-- Location -->
+                            <div class="contact-item d-flex align-items-center mb-4">
+                                <div class="contact-icon me-3">
+                                    <i class="fas fa-map-marker-alt fa-2x text-primary"></i>
+                                </div>
+                                <div>
+                                    <h6 class="fw-bold mb-1">Location</h6>
+                                    <p class="text-muted mb-0">Buffalo, New York</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Email -->
+                            <div class="contact-item d-flex align-items-center mb-4">
+                                <div class="contact-icon me-3">
+                                    <i class="fas fa-envelope fa-2x text-primary"></i>
+                                </div>
+                                <div>
+                                    <h6 class="fw-bold mb-1">Email</h6>
+                                    <a href="mailto:hassan7@buffalo.edu" class="text-muted text-decoration-none">
+                                        contact.me.codecraft@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <!-- Social Links -->
+                            <div class="mt-5">
+                                <h6 class="fw-bold mb-3">Follow Me</h6>
+                                <div class="d-flex gap-2">
+                                    <a href="https://github.com/Mehedih178" target="_blank" 
+                                       class="btn btn-floating btn-primary btn-lg">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/mehedi-hassan-a80762258/" target="_blank"
+                                       class="btn btn-floating btn-primary btn-lg">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h4 class="fw-bold mb-4">Send a Message</h4>
+                            <form id="contactForm" class="needs-validation" novalidate>
+                                <div class="row g-4">
+                                    <!-- Name Input -->
+                                    <div class="col-md-6">
+                                        <div class="form-outline">
+                                            <input type="text" id="name" class="form-control" required 
+                                                   pattern=".{2,}" title="Name must be at least 2 characters" />
+                                            <label class="form-label" for="name">Your Name</label>
+                                            <div class="invalid-feedback">Please enter your name (min. 2 characters)</div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Email Input -->
+                                    <div class="col-md-6">
+                                        <div class="form-outline">
+                                            <input type="email" id="email" class="form-control" required />
+                                            <label class="form-label" for="email">Your Email</label>
+                                            <div class="invalid-feedback">Please enter a valid email address</div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Subject Input -->
+                                    <div class="col-12">
+                                        <div class="form-outline">
+                                            <input type="text" id="subject" class="form-control" required 
+                                                   pattern=".{4,}" title="Subject must be at least 4 characters" />
+                                            <label class="form-label" for="subject">Subject</label>
+                                            <div class="invalid-feedback">Please enter a subject (min. 4 characters)</div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Message Input -->
+                                    <div class="col-12">
+                                        <div class="form-outline">
+                                            <textarea class="form-control" id="message" rows="4" required 
+                                                      minlength="10" title="Message must be at least 10 characters"></textarea>
+                                            <label class="form-label" for="message">Your Message</label>
+                                            <div class="invalid-feedback">Please enter your message (min. 10 characters)</div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Submit Button -->
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary btn-lg w-100">
+                                            Send Message
+                                            <i class="fas fa-paper-plane ms-2"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Social Media Section -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="me-5 d-none d-lg-block">
+                <span>Connect with me on social networks:</span>
+            </div>
+            <div>
+                <a href="https://github.com/Mehedih178" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mehedi-hassan-a80762258/" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Main Footer Content -->
+        <section class="py-5">
+            <div class="container text-center text-md-start">
+                <div class="row mt-3">
+                    <!-- About section -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-code me-3"></i>CodeCraft
+                        </h6>
+                        <p>
+                            Computer Science student passionate about creating innovative solutions 
+                            and learning new technologies.
+                        </p>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Quick Links
+                        </h6>
+                        <p>
+                            <a href="work.html" class="text-reset">Projects</a>
+                        </p>
+                        <p>
+                            <a href="about.html" class="text-reset">About</a>
+                        </p>
+                        <p>
+                            <a href="contact.html" class="text-reset">Contact</a>
+                        </p>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p>
+                            <i class="fas fa-home me-3"></i>
+                            Buffalo, NY
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            contact.me.codecraft@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 Copyright:
+            <a class="text-reset fw-bold" href="index.html">CodeCraft</a>
+        </div>
+    </footer>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html> 

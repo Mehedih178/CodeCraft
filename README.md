@@ -17,3 +17,7 @@ My personal portfolio website showcasing my projects and skills.
 
 ## Visit
 [View Live Site](https://mehedih178.github.io)
+
+## Contact
+Email: contact.me.codecraft@gmail.com
+Location: Buffalo, NY

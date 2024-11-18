@@ -9,8 +9,8 @@ const projectsData = {
             role: 'Full Stack Developer'
         },
         links: {
-            github: 'https://github.com/yourusername/codecraft',
-            live: 'https://codecraft-portfolio.com'
+            github: 'https://github.com/Mehedih178/CodeCraft',
+            live: 'https://mehedih178.github.io/CodeCraft'
         },
         images: [
             {

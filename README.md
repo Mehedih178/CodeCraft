@@ -1,4 +1,4 @@
-# Portfolio Website
+# CodeCraft Portfolio
 
 My personal portfolio website showcasing my projects and skills.
 
@@ -11,12 +11,13 @@ My personal portfolio website showcasing my projects and skills.
 
 ## Features
 - Responsive design
-- Project showcase
-- Contact form
+- Project showcase with detailed case studies
 - Interactive UI elements
+- Contact form
+- Loading animations
 
 ## Visit
-[View Live Site](https://mehedih178.github.io)
+[View Live Site](https://mehedih178.github.io/CodeCraft)
 
 ## Contact
 Email: contact.me.codecraft@gmail.com
